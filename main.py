@@ -81,3 +81,4 @@ print('-------------')
 
 for t in metadata.sorted_tables:
     print(t.name)
+metadata.drop_all(engine)
