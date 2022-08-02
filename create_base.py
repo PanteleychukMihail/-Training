@@ -1,3 +1,6 @@
+""" Created new Database by SQLAlchemy """
+
+
 import psycopg2
 from psycopg2.extensions import ISOLATION_LEVEL_AUTOCOMMIT
 
